@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'LibreCaslonDisplay-Regular';
+    src:url('../fonts/LibreCaslonDisplay-Regular.ttf.woff') format('woff'),
+        url('../fonts/LibreCaslonDisplay-Regular.ttf.svg#LibreCaslonDisplay-Regular') format('svg'),
+        url('../fonts/LibreCaslonDisplay-Regular.ttf.eot'),
+        url('../fontsLibreCaslonDisplay-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f4f4f4;
+	background-color: #e6f6fe;
+	font-size: 18px;
+	transition: background-color 1s ease;
+}
+.max-width-1200{
+	max-width: 1200px;
+}
+.connect-item a{ 
+	color:black;
+	font-size: 18px;
+	line-height: 30px;
+}
+.color-purple {
+  background-color: #d8bfd8;
+}
+.color-blue{
+  background-color: #e6f6fe;
+}
+.navbar{
+	left:0;
+	right:0;
+	max-width: 1200px;
+	margin: 0 auto;
+	position: static;
+}
+#intro{
+	line-height: 50px;
+}
+
+@media (max-width: 575.98px) {
+	#intro{
+	font-family: 'LibreCaslonDisplay-Regular', cursive;
+	font-size: 40px;
+	}
+	.max-width-1200{
+		padding: 0px 30px;
+	}
+	.connect{
+		text-align: left;
+		margin-top: 20px;
+	}
+	.work{
+		margin-top: 200px;
+	}
+	.head{
+	margin-top: 10px;
+	}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#intro{
+		font-family: 'LibreCaslonDisplay-Regular', sans-serif;
+		font-size: 40px;
+	}
+	.max-width-1200{
+		padding: 0px 30px;
+	}
+	.connect{
+		text-align: left;
+		margin-top: 20px;
+	}
+	.work{
+		margin-top: 200px;
+	}
+	.head{
+	margin-top: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#intro{
+		font-family: 'LibreCaslonDisplay-Regular', sans-serif;
+		font-size: 40px;
+	}
+	.max-width-1200{
+		padding: 0px 50px;
+	}
+	.connect{
+		text-align: right;
+	}
+	.work{
+		margin-top: 100px;
+	}
+	.head{
+	margin-top: 40px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#intro{
+		font-family: 'LibreCaslonDisplay-Regular', sans-serif;
+		font-size: 50px;
+	}
+	.max-width-1200{
+		padding: 0px 30px;
+	}
+	.connect{
+		text-align: right;
+	}
+	.head{
+	margin-top: 30px;
+	}
+	
+}
+
+@media (min-width: 1200px) { 
+	#intro{
+		font-family: 'LibreCaslonDisplay-Regular', sans-serif;
+		font-size: 60px;
+		
+	}
+	.max-width-1200{
+		padding: 0px 30px;
+	}
+	.connect{
+		text-align: right;
+	}
+	.margin-top{
+		margin-top: 40px;
+	}
+	.head{
+		margin-top: 40px;
+	}
+}
+.connect-list{
+		list-style-type: none;
+		padding: 0px;
+}
+.work-list{
+	list-style-type: none;
+	padding: 0px;
+}
+footer{
+	height: 100px;
+	margin-top: 30px;
+}
+#img{
+	opacity: 1;
+	background: transparent;
+	background-size: cover;
+	width: 500px;
+	height:500px;
+	transition: background 1s ease;
+	margin: 0 auto;
+}
+
+.work-item a{
+	text-decoration: none;
+	color:inherit;
+}
