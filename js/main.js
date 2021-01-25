@@ -51,3 +51,14 @@ document.getElementById('project-2').addEventListener("mouseout",
     {
       document.getElementById('img').style.background="none";
     });
+document.getElementById('project-3').addEventListener("mouseover",
+    function(event)
+    {
+      document.getElementById('img').style.background="url('../img/weather-icon.png')";
+      document.getElementById('img').style["background-size"]="cover";
+    });
+document.getElementById('project-3').addEventListener("mouseout",
+    function(event)
+    {
+      document.getElementById('img').style.background="none";
+    });
